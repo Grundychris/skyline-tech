@@ -1,14 +1,19 @@
 .table-header{
-  margin: 50px auto;
+  margin-top: 50px;
+  border-radius: 8px;
   text-align: center;
   font-size: 35px;
   font-weight: 1000;
   font-family: 'Courier New', Courier, monospace;
+  background-color: rgb(255, 187, 0);
+  color: white;
+  margin-left: 450px;
+  margin-right: 450px;
 }
 
 
 .table-box{
-  margin: 50px auto;
+  margin: 0px auto;
 
 }
 
@@ -18,7 +23,7 @@
   margin: 10px auto;
   font-family: sans-serif;
   background: transparent;
-  padding: 12px 0;
+  padding: 8px 0;
   color: black;
   font-size: 13px;
   box-shadow: 0 1px 4px 0 rgb(0,0,50,0.3);
@@ -28,41 +33,16 @@
 .table-cell{
   display: table-cell;
   width: 30%;
-  text-align: center;
+  text-align: left;
   padding: 5px;
   /* border-right: 1px solid #d6d4d4; */
   vertical-align: middle;
 }
 
 
-.table-head{
-  background: blue;
-  box-shadow: none;
+
+.blue{
+  background-color: blue;
   color: white;
-  font-weight: 600;
-}
-
-
-.good-icon{
-  background-color: darkgreen;
-  color: white;
-  padding-top: 0px;
-  padding-bottom: 0px;
-  border-radius: 6px;
-  margin: auto;
-}
-
-
-
-.check{
-  background-color: darkgreen;
-  color: white;
-  margin: auto;
-  border-radius: 3px;
-  
-}
-
-.godson{
-  color: black;
-  display: flex;
+  font-size: 25px;
 }
