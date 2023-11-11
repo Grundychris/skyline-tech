@@ -1,19 +1,14 @@
 .table-header{
-  margin-top: 50px;
-  border-radius: 8px;
+  margin: 50px auto;
   text-align: center;
   font-size: 35px;
   font-weight: 1000;
   font-family: 'Courier New', Courier, monospace;
-  background-color: rgb(255, 187, 0);
-  color: white;
-  margin-left: 450px;
-  margin-right: 450px;
 }
 
 
 .table-box{
-  margin: 0px auto;
+  margin: 50px auto;
 
 }
 
@@ -23,7 +18,7 @@
   margin: 10px auto;
   font-family: sans-serif;
   background: transparent;
-  padding: 8px 0;
+  padding: 12px 0;
   color: black;
   font-size: 13px;
   box-shadow: 0 1px 4px 0 rgb(0,0,50,0.3);
@@ -33,16 +28,58 @@
 .table-cell{
   display: table-cell;
   width: 30%;
-  text-align: left;
+  text-align: center;
   padding: 5px;
   /* border-right: 1px solid #d6d4d4; */
   vertical-align: middle;
 }
 
 
-
-.blue{
-  background-color: blue;
+.table-head{
+  background: blue;
+  box-shadow: none;
   color: white;
-  font-size: 25px;
+  font-weight: 600;
+}
+
+
+.good-icon{
+  background-color: white;
+  color: black;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  border-radius: 6px;
+  margin: auto;
+}
+
+.good-icon1{
+  background-color: darkgreen;
+  color: whitesmoke;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  border-radius: 6px;
+  margin: auto;
+}
+
+.check{
+  background-color: darkgreen;
+  color: white;
+  margin: auto;
+  border-radius: 3px;
+  
+}
+
+.check1{
+  background-color: white;
+  color: darkred;
+  margin: auto;
+  border-radius: none;
+  
+  
+}
+
+
+.godson{
+  color: black;
+  display: flex;
 }
